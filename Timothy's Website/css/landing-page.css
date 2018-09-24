@@ -1,0 +1,417 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("https://images.pexels.com/photos/462219/pexels-photo-462219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+  header.masthead.other {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 4rem;
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/pexels-photo-1068523.jpeg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-attachment: fixed;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+footer.footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/*Override primary button color */
+a {
+  color: #6f42c1;
+}
+
+a:hover {
+    color: #4e2d89;
+}
+
+.text-primary {
+  color: #6f42c1 !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #4e2d89;
+  border-color: #4e2d89;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #4e2d89;
+    border-color: #4e2d89;
+}
+
+.bg-primary {
+    background-color: #6f42c1!important;
+}
+
+@media (min-width: 992px){}
+  hr {
+      border-color: #6f42c1;
+      border-width: .3rem;
+      width: 10%;
+  }
+}
+
+.top-nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  max-height: 80px;
+  transition: 0.5s ease-in;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+}
+
+.top-nav.bg-light{
+	height: 60px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.23);
+}
+
+#homepage-about {
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#homepage-about .featured-text {
+    padding: 2rem;
+}
+
+@media (min-width: 992px){
+  #homepage-about .featured-text {
+      padding: 0 0 0 2rem;
+      border-left: .5rem solid #64a19d;
+  }
+}
+
+@media (min-width: 992px){
+  .home-grayscale .featured-text {
+      padding: 0 0 0 2rem;
+      border-left: .5rem solid #6f42c1;
+  }
+}
+
+@media (min-width: 992px){
+  .home-grayscale .featured-text-2 {
+      padding: 0 2rem 0 0;
+      border-right: .5rem solid #6f42c1;
+  }
+}
+
+.content-half ul {
+    padding: 0;
+    list-style: none;
+}
+
+.content-half ul li {
+    margin: 15px 0;
+    float: left;
+    width: 100%;
+}
+
+.content-half ul li i {
+    float: left;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content-half ul li .list-content {
+    float: left;
+    margin-left: 5px;
+}
+
+
+#service-block .row-wrapper {
+    position: relative;
+    margin: 0 auto;
+}
+
+/*@media (min-width: 800px)
+  #service-block .row {
+      margin-top: -100px;
+  }*/
+
+#service-block .overlap-row {
+    margin-top: -100px;
+}
+
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("https://images.pexels.com/photos/462219/pexels-photo-462219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #a7a7a7;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
+.index-big-blurp{
+  position: relative;
+  /*background-color: #343a40;*/
+  background: url("https://images.unsplash.com/photo-1523329110005-297cf111f8de?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2d4368ee1fbe3809cf50a069e705e3eb&auto=format&fit=crop&w=634&q=80") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.index-big-blurp .overlay{
+    position: absolute;
+    /*background-color: #212529;*/
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6f42c1+0,e5e5e5+90,e5e5e5+98&0.8+0,0.5+100 */
+background: -moz-linear-gradient(top, rgba(111,66,193,0.8) 0%, rgba(0,0,0,0.53) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(111,66,193,0.8) 0%,rgba(0, 0, 0, 0.53) 100%);
+background: linear-gradient(to bottom, rgba(111,66,193,0.8) 0%,rgba(0, 0, 0, 0.53) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc6f42c1', endColorstr='#80e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+
+
+.about-section .container{
+  position: relative;
+  /*background-color: #343a40;*/
+  background: url("https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.about-section .overlay{
+    position: absolute;
+    /*background-color: #212529;*/
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6f42c1+0,e5e5e5+90,e5e5e5+98&0.8+0,0.5+100 */
+background: -moz-linear-gradient(top, rgba(111,66,193,0.8) 0%, rgba(0,0,0,0.53) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(111,66,193,0.8) 0%,rgba(0, 0, 0, 0.53) 100%);
+background: linear-gradient(to bottom, rgba(111,66,193,0.8) 0%,rgba(0, 0, 0, 0.53) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc6f42c1', endColorstr='#80e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+#about .about-col .img {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 175px;
+}
+
+#about #our-plan .img{
+  background: url("../img/book-data-graph-970198.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#about #our-mission .img{
+  background: url("../img/concept-idea-innovation-212286.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#about #our-vision .img{
+  background: url("../img/pexels-photo-1068523.jpeg") no-repeat center center;
+  background-size: cover;
+}
+
+#about .about-col .img img {
+    max-height: 250px;
+    border-radius: 4px 4px 0 0;
+}
+
+#about .about-col .icon {
+    width: 64px;
+    height: 64px;
+    padding-top: 10px;
+    text-align: center;
+    position: absolute;
+    background-color: #6f42c1;
+    border-radius: 50%;
+    text-align: center;
+    border: 4px solid #fff;
+    left: calc( 50% - 32px);
+    bottom: -30px;
+    transition: 0.3s;
+}
+
+#about .about-col i {
+    font-size: 36px;
+    line-height: 1;
+    color: #fff;
+    transition: 0.3s;
+}
+
+#about .about-col h2 {
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0;
+    margin: 40px 0 12px 0;
+}
